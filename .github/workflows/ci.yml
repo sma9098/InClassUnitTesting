@@ -3,10 +3,10 @@ name: CI Workflow
 on:
   push:
     branches:
-      - CIWorkflow
+      - main
   pull_request:
     branches:
-      - CIWorkflow
+      - main
 
 jobs:
   build-and-test:
